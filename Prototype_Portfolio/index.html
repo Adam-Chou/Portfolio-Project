@@ -1,0 +1,159 @@
+<!-- Note: Website design is loosely based off of http://melaniedaveid.com/ -->
+<!-- This is still the prototyping page, and I will have more content that is more  -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adam's Portfolio</title>
+    <!-- w3css import -->
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open Sans">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+    <link rel="stylesheet" href="css/master.css">
+    <!-- Media query for narrow browser width -->
+    <link rel="stylesheet" media="only screen and (max-width: 480px)" href="css/mobile.css">
+
+    <!-- Media query for medium browser width -->
+    <link rel="stylesheet" media="only screen and (min-width: 481px) and (max-width: 960px)" href="css/tablet.css">
+
+    <!-- Media query for full browser width -->
+    <link rel="stylesheet" media="only screen and (min-width: 961px)" href="css/desktop.css">
+
+    <!-- Load Jquery Script -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <!-- Load Jquery Validation -->
+    <script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.1/dist/jquery.validate.js"></script>
+<!-- Prevent smartphones from scaling pages down -->
+<meta name="viewport" content="initial-scale=1">
+</head>
+<body>
+   
+    <!-- Title Page -->
+    <div id="header" class="emptyblock"></div>
+    <div id="frontpage" class ="page">
+        <div class="container" style="flex-direction: column;">
+            <h1 class="center_text" style="font-size: 50px; margin: 5%;">Adam Chou</h1>
+            <img id="frontpageimg" class="center_image block_image" src="img/hpixelated.png" alt="Koi fish in a pond" data-original="img/header.png">
+            <!--  -->
+            <div class="linenavbar" style="margin: 2.5%; margin-top: 0;">
+                <a class = "unselected" style="margin-left: 5px; margin-right: 5px" href="#about"><h3>About</h3></a>
+                <a class = "unselected"><h3>/<h3></a>
+                <a class = "unselected" style="margin-left: 5px; margin-right: 5px" href="#work"><h3>Work</h3></a>
+                <a class = "unselected"><h3>/</h3></a>
+                <a class = "unselected" style="margin-left: 5px; margin-right: 5px" href="#contact"><h3>Contact</h3></a>
+            </div>
+        </div>
+    </div>
+
+    <div class="emptyblock"></div>
+
+    <!-- About Page -->
+    <div id="about" class ="page">
+            <div class="container">
+            <div class="innercontainer">
+                <div class="linenavbar">
+                    <a class = "unselected" style="margin-left: 5px; margin-right: 5px" href="#work"><h3>Work</h3></a>
+                    <a class = "unselected"><h3>/</h3></a>
+                    <a class = "selected" style="margin-left: 5px; margin-right: 5px" href="#about"><b><h3>About</h3></b></a>
+                    <a class = "unselected"><h3>/</h3></a>
+                    <a class = "unselected" style="margin-left: 5px; margin-right: 5px" href="#contact"><h3>Contact</h3></a>
+                </div>
+                
+            <!-- text area -->
+                <div class = "about_text">
+                    <img class="border center_image about_image" style="border: white 1px solid;"src="img/The_Bee_Movie_But_Me.png">
+
+                    <h3 class= "center_text">I am a Senior studying Media, Culture, and Communications at New York University.</h3>
+                    <h3 class= "center_text">Welcome to my work site!</h3>
+                    <h3 class= "center_text">Please, scroll down to view some of my work.</h3>
+                    <h3 class= "center_text">I made this site in order to showcase my hobbies of photography and computer art.</h3>
+                    <h3 class= "center_text">Hope you enjoy!</h3>
+                </div>
+                <!-- Navbar -->
+            </div>
+        </div>
+    </div>
+            <!-- text area -->
+    <div class="emptyblock"></div>
+    <!-- Work Page -->
+    <div id="work" class ="page">
+        <div class="container">
+                    <ul class= "navbar">
+                        <LH class="title">Work</LH>
+                            <a class = "unselected" href="#about"><li><h3>About</h3></li></a>
+                            <a class = "selected" href="#work"><li><b><h3>Work</h3></b></li></a>
+                            <a class = "unselected" href="#contact"><li><h3>Contact</h3></li></a>
+                    </ul>
+                
+                <div class="col">
+                    <a href ="paint.html" target="_blank"><img class="work_image" src="img/paint.png"></a>
+                    <a href ="sun.html" target="_blank"><img class="work_image" src="img/Sun.png"></a>
+                </div>
+                <div class="col">
+                    <a href ="space.html" target="_blank"><img class="work_image" src="img/space.png"></a>
+                    <a href ="particle.html" target="_blank"><img class="work_image" src="img/particle.png"></a>
+                </div>
+            </div>
+    </div>
+
+    <div class="emptyblock"></div>
+    <!-- Contact Page -->
+    <div id="contact" class ="page">
+        <div class="container" style="flex-direction: column;">
+            <div class= "linenavbar">
+                <div class= "center_text">
+                        <a href="#about" class = "unselected" style="font-size: 3vw;"><h1>About</h1></a>
+                        <a><h1>/</h1></a>
+                        <a href="#contact" class = "selected" style="font-size: 4vw;"><b><h1>Contact</h1></b></a>
+                        <a><h1>/</h1></a>
+                        <a href="#work" class = "unselected" style="font-size: 3vw;"><h1>Work</h1></a>
+                </div>
+            </div>
+            <div class="contact_content">
+            <!-- <div style= "display: flex;"> -->
+                <img class="contact_image" src = "img/china.jpeg"></img>
+
+                <!-- Formspree  -->
+                <div class= "contact_form">
+                        <form name="contact" action="https://formspree.io/xeqrjlvq" method="POST">
+                            <h1>Contact Me!</h1>
+                            <h3><label for="username">Name: </label><br></h3>
+                            <h3><input id ="username" type ="text" name="user_name" minlength = "2" type = "text" required placeholder="Enter your name"><br></h3>    
+                            <h3><label for="email">Email: </label><br></h3>
+                            <h3><input id="email" type="text" name="email" type="email" required placeholder="Enter your email"><br></h3>
+                            <h3><label for="commentary">Your message: </label><br></h3>
+                            <h3><textarea id="commentary" name="message" required placeholder="Say Hello!"></textarea><br></h3>
+                            
+                            <button type="submit">Send</button>
+                        </form>
+                </div>
+            <!-- text area -->
+            </div>
+        </div>
+    </div>
+
+    <div class="emptyblock"></div>
+            
+    <!-- End Page -->
+    <div id="end" class ="page">
+        <div class="container">
+            <img class="center_image block_image" src="img/fountain.jpg">
+        </div>
+    </div>
+    <div class="w3-white">
+        <div class="w3-container w3-xlarge w3-padding container" >
+            <a target="_blank" href="https://www.facebook.com/chou.adam.r/"><i class="fa fa-facebook-official w3-hover-opacity"></i></a>
+            <a target="_blank" href="https://www.instagram.com/aaaaah_choo/"></a><i class="fa fa-instagram w3-hover-opacity"></i></a>
+            <a target="_blank" href="https://www.linkedin.com/in/adam-chou/"></a><i class="fa fa-linkedin w3-hover-opacity"></i></a>
+        </div>
+    </div>
+    <div id="footer" class="emptyblock"></div>
+    
+    <!-- To be made later -->
+<!-- Load Javascript event -->
+<script src="js/script.js"></script>
+<script src="js/pixelator.js"></script>
+</html>
