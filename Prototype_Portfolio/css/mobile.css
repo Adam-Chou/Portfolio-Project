@@ -1,0 +1,41 @@
+
+.page{
+    height: 60vh;
+}
+.block_image{
+    display: block;
+    width: 80%;
+    height:40%;
+    border: 3px solid black;
+    border-radius: 5px;
+    padding: .5%;
+}.contact_image{
+    display: none;
+}.contact_content{
+    flex-direction: column;
+}
+
+
+
+.linenavbar{
+    height: 20%;
+}.selected h1{
+    font-size: 35px;
+}.unselected h1{
+    font-size: 20px;
+}
+
+.contact_content form h1{
+    font-size: 5vw;
+}.contact_content form  h3{
+    font-size: 3vw;
+}
+
+.about_text h3{
+    font-size: 1vw;
+}
+
+.innercontainer{
+    width:100%;
+    height:100%;
+}
