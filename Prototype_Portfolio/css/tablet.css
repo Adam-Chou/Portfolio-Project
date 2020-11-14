@@ -1,0 +1,17 @@
+.block_image{
+    display: block;
+    width: 80%;
+    height:50%;
+    border: 3px solid black;
+    border-radius: 5px;
+    padding: .5%;
+}.contact_image{
+    display: block;
+    width: 160%;
+    height:50%;
+    border: 3px solid black;
+    border-radius: 5px;
+    padding: .25%;
+}.contact_content{
+    flex-direction: column;
+}
