@@ -14,4 +14,6 @@
     padding: .25%;
 }.contact_content{
     flex-direction: column;
+}h3{
+    font-size: 2vw;
 }
