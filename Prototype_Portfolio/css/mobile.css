@@ -16,14 +16,16 @@
     flex-direction: column;
 }
 
-
-
 .linenavbar{
     height: 20%;
 }.selected h1{
     font-size: 35px;
 }.unselected h1{
     font-size: 20px;
+}
+.work_image{
+    max-width: 130px;
+    min-width: 130px;
 }
 
 .contact_content form h1{
